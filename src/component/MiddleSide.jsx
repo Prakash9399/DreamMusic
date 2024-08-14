@@ -5,9 +5,9 @@ import Content from './Content';
 const MiddleSide = () => {
     return (
         <div className='pl-8 pt-8 flex flex-col'>
-            {/* Top Section: Navigation Links and Search Bar */}
+          
             <div className='w-full flex'>
-                {/* Navigation Links */}
+               
                 <div className='w-1/2 flex items-center justify-evenly text-white'>
                     <span>Music</span>
                     <span>Podcast</span>
@@ -15,7 +15,7 @@ const MiddleSide = () => {
                     <span>Radio</span>
                 </div>
 
-                {/* Search Bar */}
+              
                 <div className='w-1/2 flex items-center justify-end'>
                     <div className='flex items-center bg-neutral-600 p-2 rounded-2xl w-full max-w-md'>
                         <input
@@ -28,7 +28,7 @@ const MiddleSide = () => {
                 </div>
             </div>
 
-            {/* Michael Jackson Section */}
+          
             <Content />
         </div>
     );

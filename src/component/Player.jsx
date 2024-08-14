@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaPlay, FaPause } from 'react-icons/fa';
-import Image from '../assets/Image.png'; // Import the song's banner image
+import Image from '../assets/Image.png';
 
 const Player = () => {
     const [isPlaying, setIsPlaying] = useState(false);
